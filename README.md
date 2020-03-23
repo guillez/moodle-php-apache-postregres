@@ -19,7 +19,7 @@ El entorno de trabajo se crea y gestiona con Docker Compose.
 2. Tener Docker Compose. Ver  [Docker Compose](https://docs.docker.com/compose/install/)
 3. Descargar este repositorio y acceder a él: ```git clone https://github.com/guillez/moodle-php-apache-postregres.git && cd moodle-php-apache-postregres```
 4. Copiar en la carpeta html el repositorio de Moodle: ```git clone --branch MOODLE_35_STABLE --depth 1 git://github.com/moodle/moodle html```
-5. Desplegar con: ```docker-compose up -d```
+5. Desplegar con: ```docker-compose -p mi_proyecto up -d```
 
 ## Configuración de Variables
 
@@ -58,10 +58,6 @@ A continuación se incluye una tabla que resume la estructura del archivo de Doc
 > **Dentro de la carpeta del proyecto**
 
 1. Correr proyecto
-
-docker-compose up -d
-
-# Para Nombrar el proyecto diferente a la carpeta:
 docker-compose -p mi-proy up -d
 
 2. Detener el proyecto
