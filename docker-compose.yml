@@ -1,4 +1,4 @@
-version: '1.0'
+version: '2.1'
 
 services:
   # Aplicación
@@ -52,7 +52,7 @@ services:
       - MOODLE_DATA
       - WWWROOT
       - WWW_PORT
-      # Uncomment following lines and modify variable content for CUSTOM_CA
+      # Descomentar las lineas y configurar las variables respectivas al crtificado (CUSTOM_CA)
       # - |-
       #   CA_CERT=-----BEGIN CERTIFICATE-----
       #   REPLACE_CA_CONTENT
