@@ -1,7 +1,7 @@
 # moodle-php-apache-postregres
 Docker para instalar Moodle
 
-## IMPORTANTE: Este repositorio es una daptación de varias fuentes, se adapto para lograr la aplicación en producción de un proyecto de Moodle.
+## IMPORTANTE: Este repositorio es una adaptación de varias fuentes, se adapto para lograr la aplicación en producción de un proyecto de Moodle.
 
 Este es un repositorio para crear un entorno de trabajo Moodle.
 
